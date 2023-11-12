@@ -1,0 +1,18 @@
+<style xmlns="http://purl.org/net/xbiblio/csl" class="note" version="1.0">
+  <info>
+    <title>Author-Initials-Year Style</title>
+    <id>http://www.example.com/author-initials-year-style</id>
+  </info>
+  <citation>
+    <layout>
+      <text variable="author" font-style="italic" suffix=", "/>
+      <text variable="issued" prefix="["/>
+      <text variable="issued" suffix="] "/>
+      <text variable="title" font-style="italic" suffix=". "/>
+      <text variable="container-title" font-style="italic" prefix=" "/>
+      <text variable="volume" suffix=" "/>
+      <text variable="issue" prefix="("/suffix=") "/>
+      <text variable="page" prefix="pp. "/>
+    </layout>
+  </citation>
+</style>
